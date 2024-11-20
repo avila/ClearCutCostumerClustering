@@ -27,7 +27,8 @@ CCCC: Clear Cut Costumer Clustering (with some Classification)
       -  Kidhome -> kid_home
   -  bad: sum_all_mnt
   -  good: mnt_all_sum
-  -  better: total_amount_spent
+  -  better: amount_spent_total
+     -  (`_total` at the end, so that it groups nicely with `amount_spent_average` and `amount_spent_variance`, etc) 
 - for each cell/process, write a comment on what you are doing.
   - remove the comment if they are no longer relevant!
 - name your functions meaningfully. 
