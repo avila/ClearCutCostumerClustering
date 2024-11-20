@@ -2,14 +2,13 @@
 CCCC: Clear Cut Costumer Clustering (with some Classification)
 
 ## Folder Structure 
-
 ```sh
 ├── code             # python scripts or jupyter notebooks
 ├── data
 │   ├── 01_input     # input data
 │   ├── 02_inter     # intermediate data for further analysis
 │   └── 03_output    # output data
-├── documentation    # documentation (will it remain empty? surely not, right?)
+├── documentation    # documentation                                               (will it remain empty? surely not, right?)
 ├── output
 │   ├── figures      # nice figures
 │   └── tables       # nice tables
@@ -17,6 +16,7 @@ CCCC: Clear Cut Costumer Clustering (with some Classification)
 ├── versions         # why do we have this folder again?
 └── zz_trash         # unused files that could actually be deleted.
 ```
+
 
 
 ## Aligment rules
