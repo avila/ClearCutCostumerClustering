@@ -6,6 +6,7 @@ The project is to provid a cluster label.
 
 Data Analyst Business:
 • Perform robust exploratory analysis, rich with business insights & data driven proposals to add value to the company and have strong communication skills to influence the decision making
+
 Data Advanced Analytics
 • Perform robust exploratory analysis, using advanced analytics tools and statistical methods to generate data products to optimize business results (predictive & clusterization models, for example)
 
@@ -37,12 +38,26 @@ Likely to not accept
 
 In this case when we recive new data for a customer, we can pass it through the classifer first to see if they are 1 or 0.
 
-If 1 , Send the campaign to them
+If 1 , Send the campaign to them based on their highest two spending catergories.
 if 0 , Select which cluster to assign to then apply the needed stratgy based on the cluster.
 
+(Marketing stratiges to be developed further when we reach good working models)
+
+### Approach B:
+
+We will work in a straight line towards the clustering.
+
+- EDA
+- Choosing a model
+- Evaluate the model
+- Tune the parameters
+- Evaluate the model again
+
+Check the clusters based on the most imporant features and develop a marketing stratiges based on that.
 
 
-## Folder Structure 
+
+### Folder Structure 
 ```sh
 ├── code             # python scripts or jupyter notebooks
 ├── data
@@ -60,7 +75,7 @@ if 0 , Select which cluster to assign to then apply the needed stratgy based on 
 
 
 
-## Aligment rules
+### Aligment rules
 
 - The variable for the dataset is `df`.
 - naming features:
