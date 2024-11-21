@@ -1,6 +1,47 @@
 # ClearCutCostumerClustering
 CCCC: Clear Cut Costumer Clustering (with some Classification)
 
+## Summary
+The project is to provid a cluster label.
+
+Data Analyst Business:
+• Perform robust exploratory analysis, rich with business insights & data driven proposals to add value to the company and have strong communication skills to influence the decision making
+Data Advanced Analytics
+• Perform robust exploratory analysis, using advanced analytics tools and statistical methods to generate data products to optimize business results (predictive & clusterization models, for example)
+
+You will be able to see some of the steps we created in the issues section of the repo. These steps are still underdevelopment. When we start working on the dataset we will see what's still needed.
+
+Based on our intial discussions and data exploration we were able to think about two different approchaes to the issue.
+
+### - Approach A:
+
+Approach A is **a two chained models(a classifer then a clusterer)** in order to deal with new customer data. In this approach we started from the Goal trying to reverse engineer the task. We imagned how would the new data come in?
+
+New data would most probably come in without the features AcceptedCmp1 - AcceptedCmp5 which refer to which previous marketing Campaigns has each customer accepted.
+In this case **we will be missing imporant data that refers to an important customer habit** 
+
+So in order to bypass this issue we thought about a **classifer** that first labels the customers to Interested in campaigns (Label 1) and not that interested in campaigns (Label 0).
+
+Label 1: Customers who accepted more than 3 out of 5 campaigns
+Label 0: Customers who accepted between 0 and 2 campaigns
+
+When we add the Label feature we will be able to treat it as a normal classifer and split the dataset, train, val, test.
+
+After we classify and make sure the Classifer is working fine we move to the second model which is the clusterer.
+
+In this step we take the Labeled 0 customers and cluster them into 3 clusters (maybe 5) ranking from 
+
+Likely to accept 
+Natural
+Likely to not accept
+
+In this case when we recive new data for a customer, we can pass it through the classifer first to see if they are 1 or 0.
+
+If 1 , Send the campaign to them
+if 0 , Select which cluster to assign to then apply the needed stratgy based on the cluster.
+
+
+
 ## Folder Structure 
 ```sh
 ├── code             # python scripts or jupyter notebooks
