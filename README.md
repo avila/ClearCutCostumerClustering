@@ -21,22 +21,24 @@ Approach A is **a two chained models(a classifer then a clusterer)** in order to
 New data would most probably come in without the features AcceptedCmp1 - AcceptedCmp5 which refer to which previous marketing Campaigns has each customer accepted.
 In this case **we will be missing imporant data that refers to an important customer habit** 
 
-So in order to bypass this issue we thought about a **classifer** that first labels the customers to Interested in campaigns (Label 1) and not that interested in campaigns (Label 0).
+So in order to bypass this issue:
 
-Label 1: Customers who accepted more than 3 out of 5 campaigns
-Label 0: Customers who accepted between 0 and 2 campaigns
+- we thought about a **classifer** that first labels the customers to Interested in campaigns (Label 1) and not that interested in campaigns (Label 0).
 
-When we add the Label feature we will be able to treat it as a normal classifer and split the dataset, train, val, test.
+    Label 1: Customers who accepted more than 3 out of 5 campaigns
+    Label 0: Customers who accepted between 0 and 2 campaigns
 
-After we classify and make sure the Classifer is working fine we move to the second model which is the clusterer.
+- Now we have the Label feature we can drop the AccptedCmp1 - AcceptedCmp5 as new customers will not have these data.
 
-In this step we take the Labeled 0 customers and cluster them into 3 clusters (maybe 5) ranking from 
+- When we add the Label feature we will be able to treat it as a normal classifer and split the dataset, train, val, test.
 
-Likely to accept 
-Natural
-Likely to not accept
+- After we classify and make sure the Classifer is working fine we move to the second model which is the clusterer.
 
-In this case when we recive new data for a customer, we can pass it through the classifer first to see if they are 1 or 0.
+- In this step we take the Labeled 0 customers and cluster them into clusters which we will develop a marketing stratgey for each.
+
+**Expected output**
+
+When we recive new data for a customer, we can pass it through the classifer first to see if they are 1 or 0.
 
 If 1 , Send the campaign to them based on their highest two spending catergories.
 if 0 , Select which cluster to assign to then apply the needed stratgy based on the cluster.
