@@ -91,3 +91,4 @@ Check the clusters based on the most imporant features and develop a marketing s
   - remove the comment if they are no longer relevant!
 - name your functions meaningfully. 
  
+This foundation is standerd 
