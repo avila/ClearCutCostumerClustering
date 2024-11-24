@@ -1,6 +1,13 @@
 # ClearCutCostumerClustering
 CCCC: Clear Cut Costumer Clustering (with some Classification)
 
+## Project members: 
+
+- Akanksha Sharma 
+- Kennedy Chikaodili Idoko 
+- Tarek Bder 
+- Marcelo Rainho Avila 
+
 ## Summary
 The project is to provid a cluster label.
 
