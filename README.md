@@ -9,7 +9,8 @@ CCCC: Clear Cut Costumer Clustering (with some Classification)
 - Marcelo Rainho Avila 
 
 ## Summary
-The project is to provid a cluster label.
+
+The project is to provide a cluster label.
 
 Data Analyst Business:
 • Perform robust exploratory analysis, rich with business insights & data driven proposals to add value to the company and have strong communication skills to influence the decision making
@@ -20,6 +21,11 @@ Data Advanced Analytics
 You will be able to see some of the steps we created in the issues section of the repo. These steps are still underdevelopment. When we start working on the dataset we will see what's still needed.
 
 Based on our intial discussions and data exploration we were able to think about two different approchaes to the issue.
+
+For a detailed look on the challenge description please see: 
+- [RDI's challenge description](./resources/REDI_Challenge_Description.md)
+- [iFood's challenge description](./resources/iFood_Challenge_Description.md)
+
 
 ### - Approach A:
 
@@ -97,5 +103,7 @@ Check the clusters based on the most imporant features and develop a marketing s
 - for each cell/process, write a comment on what you are doing.
   - remove the comment if they are no longer relevant!
 - name your functions meaningfully. 
+- branches naming: <author_initials>/<feature_name>, such as `mra/folder_struc`.
+
  
 This foundation is standard 
