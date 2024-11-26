@@ -5,5 +5,5 @@ zz_*
 
 # ignore data files
 *.csv
-
+*.parquet
 
