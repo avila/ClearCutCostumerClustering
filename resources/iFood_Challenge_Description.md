@@ -83,33 +83,33 @@ were contacted. Additionally, it contains a flag for those customers who respond
 by buying the product.
 
 
-| Feature             | Description                                             |
-| ------------------- | ------------------------------------------------------- |
-| AcceptedCmp1        | indicator if accepted the offer in 1st campaign         |
-| AcceptedCmp2        | indicator if accepted the offer in 2nd campaign         |
-| AcceptedCmp3        | indicator if accepted the offer in 3rd campaign         |
-| AcceptedCmp4        | indicator if accepted the offer in 4th campaign         |
-| AcceptedCmp5        | indicator if accepted the offer in 5th campaign         |
-| Response (target)   | indicator if accepted the offer in last campaign        |
-| Complain            | 1 if complained in the last 2 years                    |
-| DtCustomer          | Date of customer’s enrollment with the company          |
-| Education           | Customer’s level of education                           |
-| Marital             | Customer’s marital status                               |
-| Kidhome             | Number of small children in customer’s household        |
-| Teenhome            | Number of teenagers in customer’s household             |
-| Income              | Customer’s yearly household income                      |
-| MntFishProducts     | Amount spent on fish products in the last 2 years       |
-| MntMeatProducts     | Amount spent on meat products in the last 2 years       |
-| MntFruits           | Amount spent on fruits in the last 2 years              |
-| MntSweetProducts    | Amount spent on sweet products in the last 2 years      |
-| MntWines            | Amount spent on wines in the last 2 years               |
-| MntGoldProds        | Amount spent on gold products in the last 2 years       |
-| NumDealsPurchases   | Number of purchases made with discount                  |
-| NumCatalogPurchases | Number of purchases made using catalogue                |
-| NumStorePurchases   | Number of purchases made directly in stores             |
-| NumWebPurchases     | Number of purchases made through company’s website      |
-| NumWebVisitsMonth   | Number of visits to company’s website in the last month |
-| Recency             | Number of days since the last purchase                  |
+| Feature               | Description                                             |
+| --------------------- | ------------------------------------------------------- |
+| AcceptedCmp1          | indicator if accepted the offer in 1st campaign         |
+| AcceptedCmp2          | indicator if accepted the offer in 2nd campaign         |
+| AcceptedCmp3          | indicator if accepted the offer in 3rd campaign         |
+| AcceptedCmp4          | indicator if accepted the offer in 4th campaign         |
+| AcceptedCmp5          | indicator if accepted the offer in 5th campaign         |
+| **Response (target)** | indicator if accepted the offer in last campaign        |
+| Complain              | 1 if complained in the last 2 years                     |
+| Dt_Customer           | Date of customer’s enrollment with the company          |
+| Education             | Customer’s level of education                           |
+| Marital               | Customer’s marital status                               |
+| Kidhome               | Number of small children in customer’s household        |
+| Teenhome              | Number of teenagers in customer’s household             |
+| Income                | Customer’s yearly household income                      |
+| MntFishProducts       | Amount spent on fish products in the last 2 years       |
+| MntMeatProducts       | Amount spent on meat products in the last 2 years       |
+| MntFruits             | Amount spent on fruits in the last 2 years              |
+| MntSweetProducts      | Amount spent on sweet products in the last 2 years      |
+| MntWines              | Amount spent on wines in the last 2 years               |
+| MntGoldProds          | Amount spent on gold products in the last 2 years       |
+| NumDealsPurchases     | Number of purchases made with discount                  |
+| NumCatalogPurchases   | Number of purchases made using catalogue                |
+| NumStorePurchases     | Number of purchases made directly in stores             |
+| NumWebPurchases       | Number of purchases made through company’s website      |
+| NumWebVisitsMonth     | Number of visits to company’s website in the last month |
+| Recency               | Number of days since the last purchase                  |
 
 *Table 1: Meta-data table*
 
